@@ -1,4 +1,4 @@
 learnpythonthehardway
 =====================
 
-samples and code exercises from learnpythonthehardway
+samples and code exercises from learnpythonthehardway.org
