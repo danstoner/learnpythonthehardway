@@ -8,7 +8,7 @@ y = "Those who know %s and those who %s." % (binary, do_not)
 print x
 print y
 
-# %r seems to display the string in quoted form.
+# %r displays in raw form
 print "I said: %r." % x
 
 # %s is a normal string unquoted, but is contained inside single quotes.
