@@ -1,4 +1,5 @@
 #exercise 8
+#  %r is the raw format, also knows as the representation
 formatter = "%r %r %r %r"
 
 print formatter % (1, 2, 3, 4)
@@ -11,3 +12,4 @@ print formatter % (
     "But it didn't sing.",
     "So I said goodnight."
 )
+
