@@ -1,11 +1,18 @@
-# Temple Escape
+# Demple Escape - choose your own adventure game
+# by Dan Stoner
+# 
+# License: GPL v2
+# 
+# Notes:
+# Patterned after examples 35,36 in the Learn Python the Hard Way tutorial series
+# http://learnpythonthehardway.org/
 
 from sys import exit
 
 room_texts = {
     "entrance":"""
 
-****** Welcome to Temple Escape ******
+****** Welcome to Demple Escape ******
 
 You are standing at the entrance to the hidden temple.
 
@@ -55,13 +62,16 @@ Enjoy the rest of your life!
 def what():
     print "I do not understand."
 
+def get_choice():
+    return raw_input("> ")
+
 def dead(reason):
     print reason
     exit(0)
 
 def start():
     print room_texts['entrance']
-    choice = raw_input("> ")
+    choice = get_choice()
     if "1" in choice:
         enter_first_chamber()
     elif "2" in choice:
@@ -72,7 +82,7 @@ def start():
 
 def enter_first_chamber():
     print room_texts['first_chamber']
-    choice = raw_input("> ")
+    choice = get_choice()
     if "2" in choice:
         enter_long_hall()
     elif "1" in choice:
@@ -85,7 +95,7 @@ As you touch the statue you feel the floor shake.
 
 def enter_long_hall():
     print room_texts['long_hall']
-    choice = raw_input("> ")
+    choice = get_choice()
     if "1" in choice:
         enter_treasure_chamber()
     elif "2" in choice or "3" in choice:
@@ -96,7 +106,7 @@ def enter_long_hall():
 
 def enter_treasure_chamber():
     print room_texts['treasure_chamber']
-    choice = raw_input("> ")
+    choice = get_choice()
     if "4" in choice:
         enter_exit()
     elif "1" in choice or "2" in choice or "3" in choice:
@@ -110,19 +120,12 @@ def enter_exit():
 
 start()
 
+# the fallout condition
 print """
 You fall down a hole and slide into an underground river.
 After what seems like a very long time, you emerge into daylight and crawl ashore.
 
 You will never find your way back to the temple and the possible treasure inside!
 """
-
-# print room_texts['entrance']
-# print room_texts['exit']
-
-
-
-
-
 
 exit(0)
