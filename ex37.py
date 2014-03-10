@@ -3,31 +3,31 @@
 
 ### Keywords
 # and
-# del
+# del      # deletes and object
 # from
 # not
 # while
-# as
+# as       # alias a module name
 # elif
-# global
+# global   # create a variable that will be available outside of a function. aka bad idea!
 # or
 # with
-# assert
+# assert   # useful for debugging, test cases, ....  assert salary > 0
 # else
 # if
-# pass
-# yield
+# pass     # does nothing, useful for stubbing out functions
+# yield    # similar to return, except the function will return a generator
 # break
 # except
 # import
 # print
-# class
-# exec
+# class   # create new user defined object class.  To use, we instantiate the class. 
+# exec    # executes python code dynamically
 # in
-# raise
+# raise     # raise an exception
 # continue
 # finally
-# is
+# is        # tests for object identity (e.g. Is this the same object?)
 # return
 # def
 # for
