@@ -4,29 +4,29 @@
 ### Keywords
 # and
 # del      # deletes and object
-# from
+# from     # from module import ...
 # not
 # while
 # as       # alias a module name
 # elif
 # global   # create a variable that will be available outside of a function. aka bad idea!
 # or
-# with
+# with     # guaranteed to run the __exit__ e.g. tear things down even if the "doing" code fails
 # assert   # useful for debugging, test cases, ....  assert salary > 0
 # else
 # if
 # pass     # does nothing, useful for stubbing out functions
 # yield    # similar to return, except the function will return a generator
-# break
-# except
+# break    # in FOR or WHILE loops, terminates the nearest enclosing loop
+# except   # specify the exception handler used if an exception is raised in the try clause
 # import
 # print
 # class   # create new user defined object class.  To use, we instantiate the class. 
 # exec    # executes python code dynamically
-# in
+# in      # test for collection membership
 # raise     # raise an exception
-# continue
-# finally
+# continue  # returns control to the beginning of a while loop
+# finally   # specifies cleanup handler 
 # is        # tests for object identity (e.g. Is this the same object?)
 # return
 # def
