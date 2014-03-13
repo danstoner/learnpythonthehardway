@@ -31,7 +31,7 @@
 # return
 # def
 # for
-# lambda
+# lambda   # shorthand to create anonymous functions
 # try
 
 ### Data Types
