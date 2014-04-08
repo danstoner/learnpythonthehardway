@@ -79,7 +79,7 @@
 # *
 # **
 # /
-# //
+# //      floor division
 # %
 # <
 # >
@@ -87,21 +87,21 @@
 # >=
 # ==
 # !=
-# <>
+# <>      same as !=
 # ( )
-# [ ]
-# { }
-# @
+# [ ]     create a list object
+# { }     create a dict object
+# @       decorator syntax
 # ,
 # :
 # .
-# =
+# =     assignment
 # ;
-# +=
-# -=
+# +=    add and assignment  (e.g. c += a   is equiv to  c=c+a)
+# -=    ..
 # *=
 # /=
-# //=
+# //=   floor and assignment
 # %=
-# **=
+# **=   exponent and assignment
 
