@@ -97,11 +97,11 @@
 # .
 # =     assignment
 # ;
-# +=    add and assignment  (e.g. c += a   is equiv to  c=c+a)
+# +=    augmented assignment - add and assign  (e.g. c += a   is equiv to  c=c+a)
 # -=    ..
 # *=
 # /=
-# //=   floor and assignment
+# //=   augmented assignment - floor and assign
 # %=
-# **=   exponent and assignment
+# **=   augmneted assignment - exponent and assign
 
