@@ -32,4 +32,4 @@ hashmap.delete(jazz, "Billy Strayhorn")
 hashmap.list(jazz)
 
 print "** Goodbye Pork Pie Hat"
-Map_delete(jazz, "Charles Mingus")
+hashmap.delete(jazz, "Charles Mingus")
